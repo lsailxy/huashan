@@ -1,0 +1,33 @@
+@import '@/assets/scss/netintech.scss';
+/*element-tree*/
+.S106_tree .el-tree-node {white-space: normal!important;}
+.S106_tree .el-tree-node__content {height: auto; position: relative;}
+.S106_tree .el-checkbox__inner {width: 1.6rem!important; height: 1.6rem!important; border-radius: 50%!important;}
+.S106_tree .el-checkbox__inner::after {height: 0.7rem!important; width: 0.3rem!important; left: 0.5rem!important; top: 0.1rem!important;}
+.S106_tree .el-checkbox__input.is-indeterminate .el-checkbox__inner::before {height: 0.2rem!important; top: 0.5rem!important;}
+.S106_tree .el-tree-node__label {font-size: 1.4rem!important;}
+.S106_tree .el-tree-node__expand-icon {font-size: 1.6rem!important; color: #606060;}
+.S106_tree2 .el-tree-node__expand-icon {position: absolute; right: 0; padding: 0.6rem!important;}
+.S106_tree2 .el-tree-node__content>.el-checkbox {margin-right: 0.8rem!important; margin-left: 0.5rem!important;}
+.S106_tree .is-checked {color: #008cf0;}
+//高德地图
+.amap-geolocation-con {z-index: 1500!important;}
+.amap-logo{display: none!important;}
+.amap-copyright {opacity:0!important;}
+//vant-ui
+.E106_search .van-dropdown-menu__title {width: val(80); padding-right: val(15); overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.E106_search .van-dropdown-menu__title::after {right: val(5);}
+.S306_itemProgress .el-progress-circle {width: 5rem!important; height: 5rem!important;}
+.S306_itemProgress .el-progress__text {font-size: 1rem!important; color: #ff7878; font-weight: bold;}
+.S306_checkbox {display: inline-block; margin-top: 0.5rem;}
+.S306_checkbox .el-checkbox {font-size: 1.2rem!important; margin-right: 0.5rem!important;}
+.S306_checkbox .el-checkbox__label {font-size: 1.2rem!important; line-height: 1.6rem!important; padding-left: 0.5rem!important;}
+.S306_checkbox .el-checkbox__inner {width: 1.2rem!important; height: 1.2rem!important;}
+.S306_checkbox .el-checkbox__inner::after {width: 0.3rem!important; height: 0.7rem!important; left: 0.4rem!important; top: 0.1rem!important;}
+.S306_selectWidth1 {width: 30%;}
+.S306_selectWidth2 {width: 65%;}
+.S306_select .el-input {font-size: 1.2rem!important;}
+.S306_select .el-input__inner {height: 2.5rem!important; line-height: 2.5rem!important;}
+.S306_select .el-input--suffix .el-input__inner {padding-right: 3rem;}
+.S306_select .el-input__icon {line-height: 2.5rem; width: 2rem;}
+.S306_select .el-select .el-input .el-select__caret {font-size: 1.2rem!important;}

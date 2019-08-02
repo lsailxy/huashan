@@ -1,0 +1,29 @@
+/**
+ * scss 功能函数与全局样式
+ * @Author       Shijie.Li
+ * @Desc         global_css
+ */
+
+// 功能函数
+@function val($val) {
+  @return $val * 720rem/ (750 * 10);
+}
+
+//主题色
+$primaryColor: #16a35f;
+
+// 全局样式
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+html,body {
+  width: 100%;
+  height: 100%;
+}
